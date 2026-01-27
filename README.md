@@ -20,3 +20,7 @@ swift run
 
 - The overlay stays on the current desktop/space.
 - In edit mode the overlay captures clicks; otherwise it is click-through.
+
+## Demo
+
+https://github.com/user-attachments/assets/244c2743-ea6c-4a68-9520-10171407b975
