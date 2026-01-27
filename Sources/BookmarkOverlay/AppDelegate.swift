@@ -1,0 +1,14 @@
+import Cocoa
+
+final class AppDelegate: NSObject, NSApplicationDelegate {
+    private var controller: AppController?
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        controller = AppController()
+        controller?.start()
+    }
+
+    func applicationWillTerminate(_ notification: Notification) {
+        controller?.stop()
+    }
+}
