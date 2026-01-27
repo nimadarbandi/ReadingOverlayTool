@@ -1,6 +1,6 @@
-# BookmarkOverlay
-
-Minimal macOS overlay for reading: transparent top, dark bottom, always on top.
+# BookmarkOverlay for Mac
+macOS always‑on‑top reading line overlay for PDFs. Transparent/colored overlay to track lines while reading.
+This tool is a minimal macOS overlay for reading: transparent top, dark bottom, always on top.
 
 ## Run
 
