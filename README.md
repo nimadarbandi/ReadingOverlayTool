@@ -10,11 +10,11 @@ swift run
 
 ## Controls
 
-- Toggle edit mode: Shift + Cmd + Z
+- Toggle edit mode: Shift + Cmd + X
 - Drag the edge line to set the divider
 - Use the control panel to adjust opacity and color
 - Quit from the control panel
-- Shift + Cmd + Ctrl + Z to hide/unhide 
+- Shift + Cmd + Z to hide/unhide 
 
 ## Notes
 

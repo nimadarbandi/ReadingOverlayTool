@@ -12,10 +12,10 @@ final class HotKeyManager {
     func start() {
         let hotKeyID = EventHotKeyID(signature: OSType(0x424B4D4B), id: 1)
         let modifierFlags = UInt32(cmdKey | shiftKey)
-        RegisterEventHotKey(UInt32(kVK_ANSI_Z), modifierFlags, hotKeyID, GetEventDispatcherTarget(), 0, &hotKeyRef)
+        RegisterEventHotKey(UInt32(kVK_ANSI_X), modifierFlags, hotKeyID, GetEventDispatcherTarget(), 0, &hotKeyRef)
 
         let visibilityHotKeyID = EventHotKeyID(signature: OSType(0x424B4D4B), id: 2)
-        let visibilityFlags = UInt32(cmdKey | shiftKey | controlKey)
+        let visibilityFlags = UInt32(cmdKey | shiftKey)
         RegisterEventHotKey(UInt32(kVK_ANSI_Z), visibilityFlags, visibilityHotKeyID, GetEventDispatcherTarget(), 0, &visibilityHotKeyRef)
 
         var eventType = EventTypeSpec(eventClass: OSType(kEventClassKeyboard), eventKind: UInt32(kEventHotKeyPressed))
