@@ -47,22 +47,22 @@ This installs **Git** and **Swift**, which are needed to run the app.
    ```
 3.	Click Install when prompted and wait for it to finish
 4. Verify Installation (Optional but Recommended)
-```
-git --version
-swift --version
-```
+   ```bash
+   git --version
+   swift --version
+   ```
 ### 2. Download the App Source Code
 1.	Choose where you want the project (example: Desktop):
    ```bash
-cd ~/Desktop
-```
+   cd ~/Desktop
+   ```
 2. Clone the repository
-```bash
-git clone https://github.com/nimadarbandi/ReadingOverlayTool.git
-```bash
+   ```bash
+   git clone https://github.com/nimadarbandi/ReadingOverlayTool.git
+   ```
 3. Enter the project folder and run the app
-```bash
-cd BookmarkOverlay
-swift run
-```
-4. Use Shift + Cmd + Z to hide/unhide the app when you need.
+   ```bash
+   cd BookmarkOverlay
+   swift run
+   ```
+4. Usse Shift + Cmd + Z to hide/unhide the app when you need.
