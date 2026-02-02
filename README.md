@@ -58,7 +58,7 @@ cd ~/Desktop
 ```
 2. Clone the repository
 ```bash
-git clone https://github.com/USERNAME/BookmarkOverlay.git
+git clone https://github.com/nimadarbandi/ReadingOverlayTool.git
 ```bash
 3. Enter the project folder and run the app
 ```bash
