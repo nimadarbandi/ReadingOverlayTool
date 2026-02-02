@@ -39,23 +39,19 @@ Follow these steps **once** to prepare your Mac.
 ### 1. Install Xcode Command Line Tools (Required)
 
 This installs **Git** and **Swift**, which are needed to run the app.
-
 1. Open **Terminal**  
    - Press `Cmd + Space`, type **Terminal**, press Enter
-
 2. Run:
    ```bash
    xcode-select --install
    ```
-   
 3.	Click Install when prompted and wait for it to finish
 4. Verify Installation (Optional but Recommended)
-
 ```
 git --version
 swift --version
 ```
-### Download the App Source Code
+### 2. Download the App Source Code
 1.	Choose where you want the project (example: Desktop):
    ```bash
 cd ~/Desktop
@@ -63,9 +59,9 @@ cd ~/Desktop
 2. Clone the repository
 ```bash
 git clone https://github.com/USERNAME/BookmarkOverlay.git
-```
+```bash
 3. Enter the project folder and run the app
-```
+```bash
 cd BookmarkOverlay
 swift run
 ```
